@@ -167,7 +167,7 @@ For full details, screenshots, and troubleshooting, refer to the PDF: [![HelpDoc
 - If you deploy this project publicly or create a derivative version:
   - Keep the existing license file.  
   - Credit **“Study Buddy by Alok Kumar”**.  
-  - Include a link back to the original repo:
+  - Include a link back to the original repo:https://github.com/codewithalok18/AI_StudyBuddy.git
     
 
 For contributions, please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on forking, branching, and opening pull requests.

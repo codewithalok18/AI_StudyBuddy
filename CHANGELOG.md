@@ -1,6 +1,6 @@
 # 🧾 CHANGELOG
 **Project:** AI-Powered Study Buddy  
-**Repository:** GPA95/AI_StudyBuddy  
+**Repository:** (https://github.com/codewithalok18/AI_StudyBuddy.git)
 **Last Updated:** 08 january 2026
 
 ### 🆕 Version 1.1.0 — Major Feature Update (November 2025)

@@ -78,7 +78,7 @@ If you are not sure whether an idea fits, feel free to open a small issue first 
 
 - Go to your fork on GitHub.  
 - Click “Compare & pull request”.  
-- Target: `Codewithalok18/AI_StudyBuddy` → `main`.  
+- Target: `https://github.com/codewithalok18/AI_StudyBuddy.git` → `main`.  
 - Clearly describe:
   - What you changed.  
   - Why it improves the project.  
@@ -107,7 +107,7 @@ PRs that do not meet these basics may be closed.
 - If you deploy or publish a derivative project publicly:
 - Keep the license and attribution to **“Study Buddy by Alok Kumar”**.  
 - Include a link back to the original repository:
- -
+ -https://github.com/codewithalok18/AI_StudyBuddy.git
 
 ---
 
