@@ -9,10 +9,6 @@
 
 ---
 
-[![YouTube Demo](https://img.shields.io/badge/Watch-Demo%20Video-red?logo=youtube)](https://youtu.be/Yd0xMocB-V0)
-[![Live App](https://img.shields.io/badge/Try%20it%20Now-Study%20Buddy-success?logo=streamlit)](https://sgpai-study-buddy.streamlit.app/)
-[![HelpDoc](https://img.shields.io/badge/User%20Help-How%20to%20Use-blue?logo=google-drive)](https://drive.google.com/file/d/14NEdW6L4WC_hiqlhNBEElzJnfN60EZDa/view?usp=sharing)
-
 ---
 
 ## 🧠 **Project Overview**
@@ -170,9 +166,9 @@ For full details, screenshots, and troubleshooting, refer to the PDF: [![HelpDoc
 - You are welcome to **fork** this repository to learn from it or build your own version of Study Buddy.  
 - If you deploy this project publicly or create a derivative version:
   - Keep the existing license file.  
-  - Credit **“Study Buddy by Ammaar Ahmad Khan (GPA95)”**.  
+  - Credit **“Study Buddy by Alok Kumar”**.  
   - Include a link back to the original repo:
-    - https://github.com/GPA95/AI_StudyBuddy
+    
 
 For contributions, please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on forking, branching, and opening pull requests.
 
@@ -180,8 +176,8 @@ For contributions, please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guideline
 
 ## 👨‍💻 Author
 
-**Ammaar Ahmad Khan**  
-- GitHub: [@GPA95](https://github.com/GPA95)
+**Alok kumar**  
+- GitHub: 
 
 🌟 If you find this repository useful, please give it a star! 🌟
 

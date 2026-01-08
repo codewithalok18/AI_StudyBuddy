@@ -1,7 +1,7 @@
 # Contributing to Study Buddy
 
 Thanks for your interest in contributing to **Study Buddy – AI-Powered Study Assistant**!  
-This project is maintained by **Ammaar Ahmad Khan (GPA95)** and is open to improvements, bug fixes, and documentation updates.
+This project is maintained by **Alok Kumar** and is open to improvements, bug fixes, and documentation updates.
 
 Please read these guidelines before opening an issue or pull request.
 
@@ -78,7 +78,7 @@ If you are not sure whether an idea fits, feel free to open a small issue first 
 
 - Go to your fork on GitHub.  
 - Click “Compare & pull request”.  
-- Target: `GPA95/AI_StudyBuddy` → `main`.  
+- Target: `Codewithalok18/AI_StudyBuddy` → `main`.  
 - Clearly describe:
   - What you changed.  
   - Why it improves the project.  
@@ -105,9 +105,9 @@ PRs that do not meet these basics may be closed.
 
 - You are welcome to **fork** this project to learn or create your own version.  
 - If you deploy or publish a derivative project publicly:
-- Keep the license and attribution to **“Study Buddy by Ammaar Ahmad Khan (GPA95)”**.  
+- Keep the license and attribution to **“Study Buddy by Alok Kumar”**.  
 - Include a link back to the original repository:
- - https://github.com/GPA95/AI_StudyBuddy
+ -
 
 ---
 

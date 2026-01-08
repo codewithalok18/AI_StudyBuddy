@@ -1,55 +1,65 @@
 import streamlit as st
 import time
+
 def sidebar_ui():
-    """Sidebar with mode and Quizzer sub-mode selectors, and core controls."""
+    """Premium sidebar with mode selection and controls."""
 
-    st.sidebar.title("⚙️ Settings")
-
-    # API/info
-    st.sidebar.markdown("### API Model")
-    st.sidebar.info("**Gemini 2.5 Flash**")
-
-    # Mode selection
-    st.sidebar.markdown("### 🧩 Choose Mode")
-    mode = st.sidebar.radio(
-        "Select a core function:",
-        ["💡 Explainer", "📰 Summarizer", "🧩 Quizzer"],
-        index=0
-    )
-
-    # Nested radio for Quizzer
-    sub_mode = None
-    if mode == "🧩 Quizzer":
-        st.sidebar.markdown("### ✨ Quizzer Action")
-        sub_mode = st.sidebar.radio(
-            "Choose Quizzer action:",
-            [
-                "📝 Generate Questions",
-                "📖 Solve Questions",
-                "✅ Evaluate Answers"
-            ],
-            index=0
-        )
+    # -------------------------------------------------
+    # Sidebar Header
+    # -------------------------------------------------
+    st.sidebar.markdown("## 🧠 StudyBuddy AI")
+    st.sidebar.caption("Your smart AI study assistant")
 
     st.sidebar.markdown("---")
-    if st.sidebar.button("🆕 New Chat"):
+
+    # -------------------------------------------------
+    # Model Info Card
+    # -------------------------------------------------
+    st.sidebar.markdown("### ⚡ AI Model")
+    st.sidebar.info("🚀 **Gemini 2.5 Flash**")
+
+    st.sidebar.markdown("---")
+
+    # -------------------------------------------------
+    # Mode Selection
+    # -------------------------------------------------
+    st.sidebar.markdown("### 🧩 Learning Mode")
+
+    mode = st.sidebar.radio(
+    "Select Mode",
+    ["💡 Explainer", "📰 Summarizer", "🧩 Quizzer"],
+    label_visibility="collapsed"
+)
+
+    # -------------------------------------------------
+    # Quizzer Sub-modes
+    # -------------------------------------------------
+    sub_mode = st.sidebar.radio(
+    "Quizzer Options",
+    [
+        "📝 Generate Questions",
+        "📖 Solve Questions",
+        "✅ Evaluate Answers"
+    ],
+    label_visibility="collapsed"
+)
+
+
+    st.sidebar.markdown("---")
+
+    # -------------------------------------------------
+    # New Chat Button
+    # -------------------------------------------------
+    if st.sidebar.button("🔄 New Chat", use_container_width=True):
         st.session_state.messages = []
-        # Success message that auto-disappears after 2 seconds
         success_placeholder = st.sidebar.empty()
-        with success_placeholder.container():
-            st.success("Started a new chat!")
-        time.sleep(2)
+        with success_placeholder:
+            st.success("New chat started!")
+        time.sleep(1.5)
         success_placeholder.empty()
 
-    st.sidebar.markdown("---")
-    st.sidebar.markdown(
-        """
-        [![Watch Demo](https://img.shields.io/badge/Watch-Demo%20Video-red?logo=youtube)](https://youtu.be/Yd0xMocB-V0)
-        [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/GPA95/AI_StudyBuddy)
-        [![HelpDoc](https://img.shields.io/badge/User%20Help-How%20to%20Use-blue?logo=google-drive)](https://drive.google.com/file/d/14NEdW6L4WC_hiqlhNBEElzJnfN60EZDa/view?usp=sharing)
-        """
-    )
-    st.sidebar.markdown("---")
-    st.sidebar.caption("✨ StudyBuddy - AI Powered Study Assistant")
+    
+
+    st.sidebar.caption("✨ Built with Streamlit & Gemini")
 
     return mode, sub_mode
