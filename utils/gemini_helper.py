@@ -4,9 +4,11 @@ Author: Alok Kumar
 Description: AI-powered study assistant built with Streamlit & Gemini
 """
 
-from google import genai
+
 import os
 from dotenv import load_dotenv
+import google.generativeai as genai
+
 
 load_dotenv()
 
