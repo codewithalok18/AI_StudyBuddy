@@ -1,3 +1,10 @@
+"""
+StudyBuddy AI
+Author: Alok Kumar
+Description: AI-powered study assistant built with Streamlit & Gemini
+"""
+
+
 import streamlit as st
 from PyPDF2 import PdfReader
 

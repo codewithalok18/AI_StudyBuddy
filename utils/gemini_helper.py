@@ -1,3 +1,9 @@
+"""
+StudyBuddy AI
+Author: Alok Kumar
+Description: AI-powered study assistant built with Streamlit & Gemini
+"""
+
 from google import genai
 import os
 from dotenv import load_dotenv

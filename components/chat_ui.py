@@ -1,3 +1,11 @@
+"""
+StudyBuddy AI
+Author: Alok Kumar
+Description: AI-powered study assistant built with Streamlit & Gemini
+"""
+
+
+
 import streamlit as st
 from core.explainer import explain_concept
 from core.summarizer import summarize_text
@@ -209,8 +217,4 @@ def chat_ui(selected_mode, selected_sub_mode=None):
         if st.button("👎 Not Helpful", key=f"fb_no_{len(st.session_state.messages)}"):
             st.info("We’ll try to improve the next response.")
 
-            """
-StudyBuddy AI
-Author: Alok Kumar
-"""
-
+            

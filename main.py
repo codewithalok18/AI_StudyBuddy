@@ -1,3 +1,10 @@
+"""
+StudyBuddy AI
+Author: Alok Kumar
+Description: AI-powered study assistant built with Streamlit & Gemini
+"""
+
+
 import streamlit as st
 from components.sidebar import sidebar_ui
 from components.chat_ui import chat_ui
